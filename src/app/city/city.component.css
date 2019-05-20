@@ -1,0 +1,36 @@
+nav.woodside-navbar{
+    background: #d71538; /* Old browsers */
+    background: -moz-linear-gradient(left, #d71538 1%, #1a92cf 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #d71538 1%,#1a92cf 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #d71538 1%,#1a92cf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d71538', endColorstr='#1a92cf',GradientType=1 ); /* IE6-9 */
+    
+    -webkit-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 8px 2px rgba(0,0,0,0.75);
+    }
+    
+    .cityPagebody{
+        height: calc(100vh - 56px);
+        top: 56px;
+        position: absolute;
+        width: 100vw;
+        background-image: url("../../assets/images/karratha.jpg");
+        background-position: center center;
+        background-repeat:  no-repeat;
+        background-attachment: fixed;
+        background-size:  cover;
+        overflow-y: scroll;
+    }
+    
+    .cityPagebody .card{
+        margin: 15px;
+    }
+    
+    .cityPagebody .card-body{
+        padding: 0.25rem;
+    }
+    
+    .cityPagebody .card-img-top, .cityPagebody .card-body, .cityPagebody .card-title{
+        pointer-events: none;
+    }
